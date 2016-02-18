@@ -1,0 +1,66 @@
+#container{
+    height: 1800px;
+    width: 1800px;
+    margin: 18px 0px 0px 8px;
+
+}
+#score_container{
+    height:50px;
+    width: 280px;
+    /*background-color: gray;*/
+    margin-bottom: 15px;
+}
+#score_container p{
+    display: inline-block;
+    vertical-align: top;
+}
+#score{
+    background-color: black;
+    display: inline-block;
+    height: 50px;
+    width: 170px;
+    vertical-align: top;
+}
+#score p{
+    color: white;
+    /*display: inline-block;*/
+    vertical-align: top;
+    margin: 14px 0px 0px 20px;
+    font-size: 18px;
+
+}
+#farm_box{
+    height: 240px;
+    width: 240px;
+    background-color: green;
+    display: inline-block;
+}
+#cave_box{
+    height: 240px;
+    width: 240px;
+    background-color: gray;
+    display: inline-block;
+}
+#house_box{
+    height: 240px;
+    width: 240px;
+    background-color: blue;
+    display: inline-block;
+}
+#casino_box{
+    height: 240px;
+    width: 240px;
+    background-color: purple;
+    display: inline-block;
+    vertical-align: top;
+}
+#activity{
+    height: 250px;
+    overflow: scroll;
+}
+.red{
+    color: red;
+}
+.green{
+    color: darkgreen;
+}
